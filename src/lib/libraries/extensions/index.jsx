@@ -29,6 +29,28 @@ export default [
     {
         name: (
             <FormattedMessage
+                defaultMessage="AI TECHPARK"
+                description="Name for the AI extension"
+                id="gui.extension.ai_techpark.name"
+            />
+        ),
+        extensionId: 'ai_techpark',
+        collaborator: 'TECHPARK',
+        iconURL: videoImage,
+        insetIconURL: videoInsetImage,
+        description: (
+            <FormattedMessage
+                defaultMessage="Sample of AI/TECHPARK extension."
+                description="Description for the AI TECHPARK extension"
+                id="gui.extension.ai_techpark.description"
+            />
+        ),
+        featured: true,
+        internetConnectionRequired: true
+    },
+    {
+        name: (
+            <FormattedMessage
                 defaultMessage="Music"
                 description="Name for the 'Music' extension"
                 id="gui.extension.music.name"
