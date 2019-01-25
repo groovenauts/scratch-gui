@@ -16,6 +16,8 @@ import text2speechImage from './text2speech.png';
 import text2speechInsetImage from './text2speech-small.svg';
 import makeymakeyImage from './makeymakey.png';
 import makeymakeyInsetImage from './makeymakey-small.svg';
+import techparkAiImage from './techpark-ai.png';
+import techparkAiInsetImage from './techpark-ai-small.png';
 
 import microbitPeripheralImage from './peripheral-connection/microbit/microbit-illustration.svg';
 import microbitMenuImage from './peripheral-connection/microbit/microbit-small.svg';
@@ -29,20 +31,20 @@ export default [
     {
         name: (
             <FormattedMessage
-                defaultMessage="AI TECHPARK"
-                description="Name for the AI extension"
-                id="gui.extension.ai_techpark.name"
+                defaultMessage="Rock-Paper-Scissors"
+                description="Name for the AI extension (Rock-Paper-Scissors)"
+                id="gui.extension.rock_paper_scissors.name"
             />
         ),
-        extensionId: 'ai_techpark',
+        extensionId: 'rock_paper_scissors',
         collaborator: 'TECHPARK',
-        iconURL: videoImage,
-        insetIconURL: videoInsetImage,
+        iconURL: techparkAiImage,
+        insetIconURL: techparkAiInsetImage,
         description: (
             <FormattedMessage
-                defaultMessage="Sample of AI/TECHPARK extension."
+                defaultMessage="AI/TECHPARK extension (Rock-Paper-Scissors)."
                 description="Description for the AI TECHPARK extension"
-                id="gui.extension.ai_techpark.description"
+                id="gui.extension.rock_paper_scissors.description"
             />
         ),
         featured: true,
