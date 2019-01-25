@@ -36,7 +36,7 @@ export default [
                 id="gui.extension.rock_paper_scissors.name"
             />
         ),
-        extensionId: 'rock_paper_scissors',
+        extensionId: 'rockPaperScissors',
         collaborator: 'TECHPARK',
         iconURL: techparkAiImage,
         insetIconURL: techparkAiInsetImage,
@@ -45,6 +45,28 @@ export default [
                 defaultMessage="AI/TECHPARK extension (Rock-Paper-Scissors)."
                 description="Description for the AI TECHPARK extension"
                 id="gui.extension.rock_paper_scissors.description"
+            />
+        ),
+        featured: true,
+        internetConnectionRequired: true
+    },
+    {
+        name: (
+            <FormattedMessage
+                defaultMessage="Sound Detection"
+                description="Name for the AI extension (Sound Detection)"
+                id="gui.extension.sound_detection.name"
+            />
+        ),
+        extensionId: 'soundDetection',
+        collaborator: 'TECHPARK',
+        iconURL: techparkAiImage,
+        insetIconURL: techparkAiInsetImage,
+        description: (
+            <FormattedMessage
+                defaultMessage="AI/TECHPARK extension (Sound Detection)."
+                description="Description for the AI TECHPARK extension"
+                id="gui.extension.sound_detection.description"
             />
         ),
         featured: true,
