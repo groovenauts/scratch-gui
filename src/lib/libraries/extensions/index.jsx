@@ -53,6 +53,28 @@ export default [
     {
         name: (
             <FormattedMessage
+                defaultMessage="Image Detection"
+                description="Name for the AI extension (Image Detection)"
+                id="gui.extension.image_detection.name"
+            />
+        ),
+        extensionId: 'imageDetection',
+        collaborator: 'TECHPARK',
+        iconURL: techparkAiImage,
+        insetIconURL: techparkAiInsetImage,
+        description: (
+            <FormattedMessage
+                defaultMessage="AI/TECHPARK extension (Image Detection)."
+                description="Description for the AI TECHPARK extension"
+                id="gui.extension.image_detection.description"
+            />
+        ),
+        featured: true,
+        internetConnectionRequired: true
+    },
+    {
+        name: (
+            <FormattedMessage
                 defaultMessage="Sound Detection"
                 description="Name for the AI extension (Sound Detection)"
                 id="gui.extension.sound_detection.name"
