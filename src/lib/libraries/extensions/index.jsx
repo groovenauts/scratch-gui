@@ -272,6 +272,28 @@ export default [
         helpLink: 'https://scratch.mit.edu/ev3'
     },
     {
+        name: (
+            <FormattedMessage
+                defaultMessage="Image Detection (ImageNet)"
+                description="Name for the AI extension (ImageNet)"
+                id="gui.extension.imagenet.name"
+            />
+        ),
+        extensionId: 'imagenet',
+        collaborator: 'TECHPARK',
+        iconURL: techparkAiImage,
+        insetIconURL: techparkAiInsetImage,
+        description: (
+            <FormattedMessage
+                defaultMessage="AI/TECHPARK extension (ImageNet)."
+                description="Description for the AI TECHPARK extension"
+                id="gui.extension.imagenet.description"
+            />
+        ),
+        featured: true,
+        internetConnectionRequired: true
+    },
+    {
         name: 'LEGO Education WeDo 2.0',
         extensionId: 'wedo2',
         collaborator: 'LEGO',
